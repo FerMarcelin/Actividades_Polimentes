@@ -10,4 +10,5 @@ def title(titulo:str):
 #main code
 tit = input("Por favor, ingrese la cadena que desea: ")
 print("Resultado: ",title(tit))
+print("Hola mundo")
 
