@@ -10,5 +10,5 @@ def title(titulo:str):
 #main code
 tit = input("Por favor, ingrese la cadena que desea: ")
 print("resultadosss: ",title(tit))
-print(f"hola universo: {tit}")
+print("Este es el texto que modifico desde la rama de PRUEBAS,aun no es el definitivo")
 
