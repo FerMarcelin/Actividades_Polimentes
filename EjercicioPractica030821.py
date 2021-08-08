@@ -10,6 +10,6 @@ def title(titulo:str):
 #main code
 tit = input("Por favor, ingrese la cadena que desea: ")
 print("resultadosss: ",title(tit))
-print("Quedemosnos unicamente con un mensaje final feliz: Hola Universo!")
+print("Quedémonos unicamente con un mensaje final feliz: Hola Universo!")
 
 
