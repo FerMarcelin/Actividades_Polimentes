@@ -1,5 +1,5 @@
 #INTRODUCCION A GIT
-git init => crear un repositorio manejado por GIT desde su terminal
+git init => inicializas git localmente
 git add => agregar documentos a cierto directorio 
 git status => muestra los cambios dentro de un repositorio
 git config --global user.name "FerMarcelin"=> configuirar el git con mis datos de usuario
@@ -9,7 +9,7 @@ git log => el historial de los commit (id del commit, autor, fecha, hora y descr
 git reset => resetea los archivos que esten en el stage (es decir los archivos que siguen en espera de ser commiteados, que unicamente han sido agregados con add)
 git reset --hard 'id del commit hasta donde deseo se limpie'=> lo que logro con este comando es mover mi HEAD o se aposicionarme a justo ESE commit con ese id, de cierta manera se "guardan" todos los commits hechos posteriormente a él
 git reflog=>historial de los commits que todo el equipo de desarrollo del proyecto ha hecho sobre la rama, siempre y cuando hayan hecho merge entre ellas
-
+touch .gitignore => es para crear el archivo gitignore
 #PARA RAMAS
 gir branch  => lista de ramas creadas hasta el moemento en ese repositorio
 git branch 'nombreRama'  => creo una nueva rama 
